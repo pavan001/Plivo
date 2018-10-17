@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+    <listeners>
+        <listener class-name="com.plivo.utilities.CustomListerners"></listener>
+    </listeners>
+
+    <test name="ApiTesting">
+        <classes>
+
+            <class name="com.plivo.testcases.EndToEndTestScenario"/>
+
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

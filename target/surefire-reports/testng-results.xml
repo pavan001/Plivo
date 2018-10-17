@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15113" started-at="2018-10-17T10:40:36Z" finished-at="2018-10-17T10:40:51Z">
+    <groups>
+    </groups>
+    <test name="ApiTesting" duration-ms="15113" started-at="2018-10-17T10:40:36Z" finished-at="2018-10-17T10:40:51Z">
+      <class name="com.plivo.testcases.EndToEndTestScenario">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="setUp" is-config="true" duration-ms="122" started-at="2018-10-17T16:10:36Z" finished-at="2018-10-17T16:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="configure()[pri:0, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="configure" is-config="true" duration-ms="301" started-at="2018-10-17T16:10:36Z" depends-on-methods="com.plivo.testbase.TestSetup.setUp" finished-at="2018-10-17T16:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="beforeClass" is-config="true" duration-ms="3" started-at="2018-10-17T16:10:36Z" finished-at="2018-10-17T16:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="getAllNumbers()[pri:1, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="getAllNumbers" duration-ms="4768" started-at="2018-10-17T16:10:36Z" finished-at="2018-10-17T16:10:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllNumbers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="afterMethod" is-config="true" duration-ms="342" started-at="2018-10-17T16:10:41Z" finished-at="2018-10-17T16:10:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="postMessage()[pri:2, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="postMessage" duration-ms="2167" started-at="2018-10-17T16:10:41Z" finished-at="2018-10-17T16:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMessage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="afterMethod" is-config="true" duration-ms="41" started-at="2018-10-17T16:10:43Z" finished-at="2018-10-17T16:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getMessageDetails()[pri:3, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="getMessageDetails" duration-ms="2199" started-at="2018-10-17T16:10:43Z" finished-at="2018-10-17T16:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageDetails -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="afterMethod" is-config="true" duration-ms="39" started-at="2018-10-17T16:10:46Z" finished-at="2018-10-17T16:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getPricing()[pri:4, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="getPricing" duration-ms="2889" started-at="2018-10-17T16:10:46Z" finished-at="2018-10-17T16:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPricing -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="afterMethod" is-config="true" duration-ms="34" started-at="2018-10-17T16:10:49Z" finished-at="2018-10-17T16:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="accountdetails()[pri:5, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="accountdetails" duration-ms="2585" started-at="2018-10-17T16:10:49Z" finished-at="2018-10-17T16:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountdetails -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="afterMethod" is-config="true" duration-ms="32" started-at="2018-10-17T16:10:51Z" finished-at="2018-10-17T16:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.plivo.testcases.EndToEndTestScenario@327471b5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-17T16:10:56Z" finished-at="2018-10-17T16:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.plivo.testcases.EndToEndTestScenario -->
+    </test> <!-- ApiTesting -->
+  </suite> <!-- Suite -->
+</testng-results>
